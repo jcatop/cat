@@ -25,9 +25,9 @@
 		<statement-cache-size>1000</statement-cache-size>
 		<properties>
 			<driver>com.mysql.jdbc.Driver</driver>
-			<url><![CDATA[{jdbc.url}]]></url>
-			<user>{jdbc.user}</user>
-			<password>{jdbc.password}</password>
+			<url><![CDATA[jdbc:mysql://127.0.0.1:3306/cat]]></url>
+			<user>root</user>
+			<password></password>
 			<connectionProperties><![CDATA[useUnicode=true&autoReconnect=true]]></connectionProperties>
 		</properties>
 	</data-source>
@@ -38,9 +38,9 @@
 		<statement-cache-size>1000</statement-cache-size>
 		<properties>
 			<driver>com.mysql.jdbc.Driver</driver>
-			<url><![CDATA[{jdbc.url}]]></url>
-			<user>{jdbc.user}</user>
-			<password>{jdbc.password}</password>
+			<url><![CDATA[jdbc:mysql://127.0.0.1:3306/cat]]></url>
+			<user>root</user>
+			<password></password>
 			<connectionProperties><![CDATA[useUnicode=true&autoReconnect=true]]></connectionProperties>
 		</properties>
 	</data-source>
